@@ -53,6 +53,6 @@ def convert_jsonl_to_createml(input_file, output_file):
     print(f"Conversion completed. Converted data saved to {output_file}.")
 
 # Example usage: Provide input and output file paths
-input_file = input('Drag and drop your input file here:).strip()
+input_file = input('Drag and drop your input file here:').strip()
 output_file = input('Drag and drop your output file here:').strip()
 convert_jsonl_to_createml(input_file, output_file)
